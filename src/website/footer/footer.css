@@ -33,6 +33,16 @@
     outline: none;
     font-weight: bold;
 }
+.footer button:disabled
+{
+    background-color: #d5c5a6;
+    color: black;
+}
+.footer button:disabled:hover
+{
+    color: black;
+    background-color: #d5c5a6;
+}
 .footer button:hover
 {
     background-color: #d5c5a6;
@@ -51,4 +61,23 @@
     gap: 1vmax;
     color: #ffff;
     font-size: 1.7vmax;
+}
+.footerIconOuter a
+{
+    color: white;
+    text-decoration: none;
+}
+.footerIconOuter a:hover
+{
+    color: black;
+}
+#exampleModal2
+{
+    z-index: 99999;
+}
+#exampleModal2 input
+{
+    height: 50px;
+    padding-left: 10px;
+    width: 100%;
 }

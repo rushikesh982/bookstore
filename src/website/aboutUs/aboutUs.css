@@ -1,0 +1,41 @@
+.behindOurBrand 
+{
+    font-size: 2.9vmax;
+    font-weight: bolder;
+}
+.behindOurBrand  span
+{
+    color: #076e7c;
+}
+
+.aboutBox
+{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.aboutInner
+{
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    /* background-color: red; */
+}
+.aboutInner img
+{
+    height: 100%;
+    width: 100%;
+}
+.aboutInner .nav-link
+{
+    color: #076e7c;
+    font-weight: bold;
+}
+.aboutInner .nav-link:hover
+{
+    font-size: 1vmax;
+    transition: all ease-in-out 0.2s;
+}

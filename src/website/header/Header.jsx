@@ -61,7 +61,7 @@ export default function Header() {
             <li>
               <NavLink
                 className={"nav-link d-inline"}
-                to={"/AboutUs"}
+                to={"/About"}
                 style={({ isActive }) => ({
                   color: isActive ? "black" : "white",
                   fontWeight: isActive ? "bold" : "normal",

@@ -51,9 +51,20 @@
 {
     margin-top: 50px;
     font-size: 25px;
+    color: white;
     background-color: #076e7cca;
     padding: 2px 4px;
     border-radius: 50%;
     width: fit-content;
 }
 /* banner end */
+/* see more */
+.card
+{
+    /* width: fit-content; */
+}
+.bookImg
+{
+    height: 200px;
+    width: 100%;
+}

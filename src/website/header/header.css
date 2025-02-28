@@ -36,7 +36,9 @@
 
 /* modal */
 
-
+#exampleModal{
+    z-index: 99999;
+}
 .modal-body form table
 {
     width: 100%;
