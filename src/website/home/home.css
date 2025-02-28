@@ -1,0 +1,59 @@
+/* banner start */
+.bannerBox
+{
+    height: calc(100vh - 61.6px);
+    background: url('/public/images/homeBanner.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bannerBox img
+{
+    height: 100%;
+    width: 100%;
+}
+.bannerInner
+{
+    height: auto;
+    width: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.bannerInner button
+{
+    padding: 5px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #076E7C;
+    outline: none;
+    border: none;
+}
+.bannerInner button:hover
+{
+    color: #076E7C;
+    background-color: transparent;
+    border: 1px solid #076E7C;
+}
+.bannerInner i:hover
+{
+    color: #076E7C;
+    background-color: transparent;
+    border: 1px solid #076E7C;
+}
+.bannerInner i
+{
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: #076e7cca;
+    padding: 2px 4px;
+    border-radius: 50%;
+    width: fit-content;
+}
+/* banner end */

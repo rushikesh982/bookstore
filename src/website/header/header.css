@@ -1,0 +1,49 @@
+.nav-outer
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #076E7C;
+    color: white;
+    padding: 10px 0px;
+    height: auto;
+}
+.nav-logo img
+{
+    height: 50px;
+}
+.nav-items ul
+{
+    list-style-type: none;
+}
+.nav-items ul li
+{
+    display: inline;
+    margin-left: 30px;
+}
+.nav-logos
+{
+    display: flex;
+    gap: 20px;
+}
+.nav-logos .search
+{
+    display: none;
+}
+
+/* modal */
+
+
+.modal-body form table
+{
+    width: 100%;
+}
+.modal-body form table input
+{
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-weight: bold;
+    width: 100%;
+    transition: all ease-in-out 1s;
+}
