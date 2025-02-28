@@ -3,52 +3,85 @@ import "./header.css";
 import "remixicon/fonts/remixicon.css";
 import { NavLink } from "react-router-dom";
 
-
 export default function Header() {
   return (
     <>
       <div className="nav-outer">
         <div className="nav-logo">
-          <NavLink className="nav-link d-inline" to="/" style={({ isActive }) => ({
-    color: isActive ? "black" : "white",
-    fontWeight: isActive ? "bold" : "normal",
-  })} >
+          <NavLink
+            className="nav-link d-inline"
+            to="/"
+            style={({ isActive }) => ({
+              color: isActive ? "black" : "white",
+              fontWeight: isActive ? "bold" : "normal",
+            })}
+          >
             <h3>BookBazaar</h3>
           </NavLink>
         </div>
         <div className="nav-items d-none d-lg-block">
           <ul>
             <li>
-              <NavLink className="nav-link d-inline" to="/Book" style={({ isActive }) => ({
-    color: isActive ? "black" : "white",
-    fontWeight: isActive ? "bold" : "normal",
-  })}>
+              <NavLink
+                className="nav-link d-inline"
+                to="/Book"
+                style={({ isActive }) => ({
+                  color: isActive ? "black" : "white",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
+              >
                 Books
               </NavLink>
             </li>
             <li>
               {" "}
-              <NavLink className="d-inline nav-link" to="/New" style={({ isActive }) => ({
-    color: isActive ? "black" : "white",
-    fontWeight: isActive ? "bold" : "normal",
-  })} >
+              <NavLink
+                className="d-inline nav-link"
+                to="/New"
+                style={({ isActive }) => ({
+                  color: isActive ? "black" : "white",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
+              >
                 New
               </NavLink>{" "}
             </li>
             <li>
-                <NavLink className={'nav-link d-inline'} to={'/Bestseller'} style={({ isActive }) => ({
-    color: isActive ? "black" : "white",
-    fontWeight: isActive ? "bold" : "normal",
-  })}>Bestseller</NavLink>
-                </li>
-            <li><NavLink className={'nav-link d-inline'} to={'/AboutUs'} style={({ isActive }) => ({
-    color: isActive ? "black" : "white",
-    fontWeight: isActive ? "bold" : "normal",
-  })}>About Us</NavLink></li>
-            <li><NavLink className={'nav-link d-inline'} to={'/Contacts'} style={({ isActive }) => ({
-    color: isActive ? "black" : "white",
-    fontWeight: isActive ? "bold" : "normal",
-  })}>Contacts</NavLink></li>
+              <NavLink
+                className={"nav-link d-inline"}
+                to={"/Bestseller"}
+                style={({ isActive }) => ({
+                  color: isActive ? "black" : "white",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
+              >
+                Bestseller
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={"nav-link d-inline"}
+                to={"/AboutUs"}
+                style={({ isActive }) => ({
+                  color: isActive ? "black" : "white",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
+              >
+                About Us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={"nav-link d-inline"}
+                to={"/Contacts"}
+                style={({ isActive }) => ({
+                  color: isActive ? "black" : "white",
+                  fontWeight: isActive ? "bold" : "normal",
+                })}
+              >
+                Contacts
+              </NavLink>
+            </li>
           </ul>
         </div>
         <div className="nav-logos">
@@ -66,8 +99,7 @@ export default function Header() {
         </div>
       </div>
 
-
-{/* modal start */}
+      {/* modal start */}
       <div
         className="modal fade"
         id="exampleModal"

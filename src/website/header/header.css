@@ -7,6 +7,9 @@
     color: white;
     padding: 10px 0px;
     height: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 9999;
 }
 .nav-logo img
 {

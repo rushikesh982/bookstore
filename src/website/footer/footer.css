@@ -1,0 +1,54 @@
+.footer
+{
+    background-color: #076E7C;
+}
+
+.footer .footerHeadText
+{
+    font-size: 0.9vmax;
+}
+.footer .condition
+{
+    font-size: 0.8vmax;
+}
+.footer input
+{
+    height: 0.8vmax;
+}
+.foot-nav ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.footer button
+{
+    max-width: 550px;
+    min-width: 250px;
+    color: #076E7C;
+    text-transform: capitalize;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+.footer button:hover
+{
+    background-color: #d5c5a6;
+    color: black;
+}
+.foot-nav ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+.footerIconOuter
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmax;
+    color: #ffff;
+    font-size: 1.7vmax;
+}
