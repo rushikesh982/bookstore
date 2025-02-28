@@ -5,8 +5,8 @@ import Book from './website/book/Book';
 import Header from './website/header/Header';
 import New from './website/new/New';
 import Footer from './website/footer/Footer';
-import SeeMore from './website/home/SeeMore';
 import AboutUs from './website/aboutUs/AboutUs';
+import Contact from './website/contacts/Contact';
 
 function App() {
   return (
@@ -17,8 +17,8 @@ function App() {
             <Route path='/' element={<Home/>}></Route>
             <Route path='/book' element={<Book/>}></Route>
             <Route path='/new' element={<New/>}></Route>
-            <Route path='/SeeMore' element={<SeeMore/>}></Route>
             <Route path='/about' element={<AboutUs/>}></Route>
+            <Route path='/contact' element={<Contact/>}></Route>
           </Routes>
           <Footer/>
         </Router>

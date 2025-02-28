@@ -68,3 +68,17 @@
     height: 200px;
     width: 100%;
 }
+/* best seller */
+.bestSellerHeading p
+{
+    font-size: 2vmax;
+}
+.bestSellerHeading span
+{
+    color: #076E7C;
+}
+.bestSellerHeading span:hover
+{
+    color: black;
+    transition: all ease-in-out 0.2s;
+}
