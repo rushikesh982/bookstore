@@ -111,7 +111,7 @@ export default function Book()
                 data.map((item)=>{
                     return(
                         <>
-                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5">
+                            <div className="col-12 col-sm-6 col-md-4 col-lg-3 mt-5 text-center">
                                 <div className="card">
                                     <div className="card-body">
                                         <img src={item.img} alt="" className="bookImg"/>

@@ -49,7 +49,7 @@ export default function Header() {
             <li>
               <NavLink
                 className={"nav-link d-inline"}
-                to={"/Bestseller"}
+                to={"/BestSellers"}
                 style={({ isActive }) => ({
                   color: isActive ? "black" : "white",
                   fontWeight: isActive ? "bold" : "normal",
@@ -141,7 +141,7 @@ export default function Header() {
                       />
                     </td>
                   </tr>
-                </table>
+                </table> 
               </form>
             </div>
             <div className="modal-footer">
