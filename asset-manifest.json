@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/takalkarclasses/static/css/main.99d76c6d.css",
-    "main.js": "/takalkarclasses/static/js/main.794916af.js",
-    "static/js/453.2eb2295a.chunk.js": "/takalkarclasses/static/js/453.2eb2295a.chunk.js",
-    "static/media/remixicon.svg?t=1734404658139": "/takalkarclasses/static/media/remixicon.df9902a6df13645438e1.svg",
-    "static/media/remixicon.eot?t=1734404658139": "/takalkarclasses/static/media/remixicon.29066d810a74e994be27.eot",
-    "static/media/remixicon.ttf?t=1734404658139": "/takalkarclasses/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
-    "static/media/remixicon.woff?t=1734404658139": "/takalkarclasses/static/media/remixicon.ce82bb240fef24f93f95.woff",
-    "static/media/homeBanner.webp": "/takalkarclasses/static/media/homeBanner.88543c98e8dfdecaac57.webp",
-    "static/media/remixicon.woff2?t=1734404658139": "/takalkarclasses/static/media/remixicon.bb211d855a1864aa5b67.woff2",
-    "index.html": "/takalkarclasses/index.html",
-    "main.99d76c6d.css.map": "/takalkarclasses/static/css/main.99d76c6d.css.map",
-    "main.794916af.js.map": "/takalkarclasses/static/js/main.794916af.js.map",
-    "453.2eb2295a.chunk.js.map": "/takalkarclasses/static/js/453.2eb2295a.chunk.js.map"
+    "main.css": "/bookstore/static/css/main.a591fd54.css",
+    "main.js": "/bookstore/static/js/main.30e48627.js",
+    "static/js/453.2eb2295a.chunk.js": "/bookstore/static/js/453.2eb2295a.chunk.js",
+    "static/media/remixicon.svg?t=1734404658139": "/bookstore/static/media/remixicon.df9902a6df13645438e1.svg",
+    "static/media/remixicon.eot?t=1734404658139": "/bookstore/static/media/remixicon.29066d810a74e994be27.eot",
+    "static/media/remixicon.ttf?t=1734404658139": "/bookstore/static/media/remixicon.868d1a768f4762dbcc3e.ttf",
+    "static/media/remixicon.woff?t=1734404658139": "/bookstore/static/media/remixicon.ce82bb240fef24f93f95.woff",
+    "static/media/homeBanner.webp": "/bookstore/static/media/homeBanner.88543c98e8dfdecaac57.webp",
+    "static/media/remixicon.woff2?t=1734404658139": "/bookstore/static/media/remixicon.bb211d855a1864aa5b67.woff2",
+    "index.html": "/bookstore/index.html",
+    "main.a591fd54.css.map": "/bookstore/static/css/main.a591fd54.css.map",
+    "main.30e48627.js.map": "/bookstore/static/js/main.30e48627.js.map",
+    "453.2eb2295a.chunk.js.map": "/bookstore/static/js/453.2eb2295a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99d76c6d.css",
-    "static/js/main.794916af.js"
+    "static/css/main.a591fd54.css",
+    "static/js/main.30e48627.js"
   ]
 }
